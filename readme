@@ -1,0 +1,27 @@
+django-svelte/
+│
+├── backend/
+│   ├── mysite/          # Main Django project folder
+│   ├── api/             # Django app folder
+│   ├── utils/           # Custom directory for utility code
+│   │   ├── __init__.py  # To mark it as a Python package
+│   │   └── external_code.py  # Your non-Django code here
+│   ├── manage.py        # Django manage command script
+│   ├── settings.py      # Django settings
+│   ├── urls.py          # Django URL routing
+│   │
+│   └── wsgi.py          # WSGI config file
+│
+│
+├── frontend/
+│   ├── mysite/          # Main Django project folder
+│   ├── api/             # Django app folder
+│   ├── utils/           # Custom directory for utility code
+│   │   ├── __init__.py  # To mark it as a Python package
+│   │   └── external_code.py  # Your non-Django code here
+│   ├── manage.py        # Django manage command script
+│   ├── settings.py      # Django settings
+│   ├── urls.py          # Django URL routing
+│   │
+│   └── wsgi.py          # WSGI config file
+
