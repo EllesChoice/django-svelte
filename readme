@@ -23,5 +23,3 @@ django-svelte/
 │   ├── app.css          # Styles 
 │   ├── App.svelte       # Fetch api from django
 │   ├── main.js          # Main js File
-│   │
-│   └── wsgi.py          # WSGI config file
