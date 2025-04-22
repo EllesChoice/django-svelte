@@ -6,6 +6,7 @@ django-svelte/
 │   ├── utils/           # Custom directory for utility code
 │   │   ├── __init__.py  # To mark it as a Python package
 │   │   └── external_code.py  # Your non-Django code here
+│   │
 │   ├── manage.py        # Django manage command script
 │   ├── settings.py      # Django settings
 │   ├── urls.py          # Django URL routing
@@ -14,14 +15,13 @@ django-svelte/
 │
 │
 ├── frontend/
-│   ├── mysite/          # Main Django project folder
-│   ├── api/             # Django app folder
-│   ├── utils/           # Custom directory for utility code
-│   │   ├── __init__.py  # To mark it as a Python package
-│   │   └── external_code.py  # Your non-Django code here
-│   ├── manage.py        # Django manage command script
-│   ├── settings.py      # Django settings
-│   ├── urls.py          # Django URL routing
+│   ├── public/          # Static files
+│   ├── src/             # Main development
+│   │   ├── assets       # images, svgs, icons
+│   │   └── lib          # Functions
+│   │
+│   ├── app.css          # Styles 
+│   ├── App.svelte       # Fetch api from django
+│   ├── main.js          # Main js File
 │   │
 │   └── wsgi.py          # WSGI config file
-
